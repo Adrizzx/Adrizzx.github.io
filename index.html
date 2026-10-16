@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Marco Padilla | Full Stack Developer</title>
+<meta name="description" content="Portafolio de Marco Adrian Padilla Triviño, desarrollador Full Stack y estudiante de Ingeniería de Software en la ESPE, Quito, Ecuador.">
+<meta property="og:title" content="Marco Padilla | Full Stack Developer">
+<meta property="og:description" content="Aplicaciones web, APIs, videojuegos y sistemas embebidos. Quito, Ecuador.">
+<meta property="og:image" content="img/perfil.jpg">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='14' fill='%230b1220'/><text x='50%' y='56%' text-anchor='middle' dominant-baseline='middle' font-family='monospace' font-size='30' font-weight='700' fill='%2338bdf8'>MP</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="bg-grid" aria-hidden="true"></div>
+<div class="bg-glow" aria-hidden="true"></div>
+
+<header class="nav" id="top">
+  <a href="#inicio" class="brand"><span class="brand-mark">MP</span><span class="brand-name">marco<span class="accent">.dev</span></span></a>
+  <nav class="links" id="navlinks">
+    <a href="#sobre-mi" data-i18n="nav.about">Sobre mí</a>
+    <a href="#stack" data-i18n="nav.stack">Tecnologías</a>
+    <a href="#proyectos" data-i18n="nav.projects">Proyectos</a>
+    <a href="#trayectoria" data-i18n="nav.path">Trayectoria</a>
+    <a href="#contacto" data-i18n="nav.contact">Contacto</a>
+  </nav>
+  <div class="nav-right">
+    <button class="lang" id="lang" aria-label="Cambiar idioma"><span class="on">ES</span> | <span>EN</span></button>
+    <button class="burger" id="burger" aria-label="Menú"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-text reveal">
+    <p class="status"><span class="dot"></span><span data-i18n="hero.status">Disponible para oportunidades</span><span class="loc">· Quito, Ecuador</span></p>
+    <h1>Marco Adrian<br><span class="grad">Padilla Triviño</span></h1>
+    <p class="role">Full Stack Developer <span class="sep">/</span> <span data-i18n="hero.role2">Ingeniería de Software</span></p>
+    <p class="lead" data-i18n="hero.lead">Construyo aplicaciones web, APIs y videojuegos de extremo a extremo: desde los requisitos y el diseño hasta el despliegue. Bachiller técnico en electrónica, también integro software con hardware.</p>
+    <div class="cta">
+      <a class="btn primary" href="#proyectos" data-i18n="hero.cta1">Ver proyectos</a>
+      <a class="btn ghost" href="Marco_Padilla_CV.pdf" download data-i18n="hero.cta2">Descargar CV</a>
+    </div>
+    <div class="socials">
+      <a href="https://github.com/Adrizzx" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.56-.29-5.25-1.28-5.25-5.7 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.78 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.77.11 3.06.74.81 1.19 1.84 1.19 3.1 0 4.43-2.7 5.4-5.27 5.69.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5z"/></svg></a>
+      <a href="https://www.linkedin.com/in/marco-padilla-trivino" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a>
+      <a href="mailto:adrianpadilla824@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24"><path d="M2 5.5A2.5 2.5 0 0 1 4.5 3h15A2.5 2.5 0 0 1 22 5.5v13a2.5 2.5 0 0 1-2.5 2.5h-15A2.5 2.5 0 0 1 2 18.5v-13zm2.2-.5 7.8 6.2L19.8 5H4.2zM20 6.7l-7.4 5.9a1 1 0 0 1-1.2 0L4 6.7v11.8c0 .28.22.5.5.5h15a.5.5 0 0 0 .5-.5V6.7z"/></svg></a>
+    </div>
+  </div>
+
+  <div class="hero-visual reveal">
+    <div class="photo-wrap">
+      <img src="img/perfil.jpg" alt="Marco Adrian Padilla Triviño" class="photo">
+      <span class="ring"></span>
+    </div>
+    <div class="code-card">
+      <div class="code-head"><span></span><span></span><span></span><em>developer.ts</em></div>
+<pre class="code" id="code"><span class="k">const</span> developer = {
+  name: <span class="s">"Marco Padilla"</span>,
+  role: <span class="s">"Full Stack Developer"</span>,
+  stack: [<span class="s">"Node.js"</span>, <span class="s">"Spring Boot"</span>, <span class="s">"React"</span>],
+  also: [<span class="s">"Unity"</span>, <span class="s">"Power BI"</span>, <span class="s">"Arduino"</span>],
+  location: <span class="s">"Quito, EC"</span>,
+  available: <span class="b">true</span>
+};</pre>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="stats reveal">
+  <div><strong data-count="14">0</strong><span data-i18n="stats.repos">repositorios públicos</span></div>
+  <div><strong data-count="440" data-plus="1">0</strong><span data-i18n="stats.tests">pruebas automatizadas en un solo proyecto</span></div>
+  <div><strong data-count="2">0</strong><span data-i18n="stats.clients">sitios entregados a un cliente real</span></div>
+  <div><strong data-count="7" data-suffix="º">0</strong><span data-i18n="stats.sem">semestre de Ingeniería de Software</span></div>
+</section>
+
+<!-- ABOUT -->
+<section class="section" id="sobre-mi">
+  <div class="sec-head reveal"><span class="num">01</span><h2 data-i18n="about.title">Sobre mí</h2></div>
+  <div class="about reveal">
+    <div class="about-text">
+      <p data-i18n="about.p1">Soy estudiante de séptimo semestre de Ingeniería de Software en la Universidad de las Fuerzas Armadas ESPE. Me gusta construir software completo: levantar requisitos, diseñar la arquitectura, programar y dejar el sistema funcionando.</p>
+      <p data-i18n="about.p2">He desarrollado sistemas empresariales con Java EE, ASP.NET Core, Node.js, Python y PHP; un simulador de conducción en Unity con inteligencia artificial de tránsito; y dos sitios web que diseñé y entregué a una empresa de turismo.</p>
+      <p data-i18n="about.p3">También trabajo con infraestructura Linux, balanceo de carga, Business Intelligence y seguridad web. Mi formación técnica en electrónica me permite llevar el software hasta el hardware.</p>
+    </div>
+    <ul class="about-facts">
+      <li><span data-i18n="about.f1k">Formación</span><b>ESPE · Ingeniería de Software</b></li>
+      <li><span data-i18n="about.f2k">Base técnica</span><b data-i18n="about.f2v">Bachiller en Electrónica</b></li>
+      <li><span data-i18n="about.f3k">Modalidad</span><b data-i18n="about.f3v">Presencial, híbrida o remota</b></li>
+      <li><span data-i18n="about.f4k">Idiomas</span><b data-i18n="about.f4v">Español nativo · Inglés intermedio</b></li>
+    </ul>
+  </div>
+</section>
+
+<!-- STACK -->
+<section class="section" id="stack">
+  <div class="sec-head reveal"><span class="num">02</span><h2 data-i18n="stack.title">Tecnologías</h2></div>
+  <div class="stack-grid">
+    <article class="stack-card reveal"><h3>Backend</h3><p>Node.js · Express · Java · Spring Boot · Jakarta EE · ASP.NET Core · Python · Flask · PHP · REST · JWT</p></article>
+    <article class="stack-card reveal"><h3>Frontend</h3><p>React · Next.js · TypeScript · Vite · PrimeReact · JavaScript · Bootstrap · HTML5 · CSS3</p></article>
+    <article class="stack-card reveal"><h3 data-i18n="stack.db">Bases de datos</h3><p>MySQL · PostgreSQL · MongoDB · SQLite · Sequelize · Mongoose · SQLAlchemy</p></article>
+    <article class="stack-card reveal"><h3>DevOps &amp; Cloud</h3><p>Linux · Nginx · Apache · Docker · VMware · VirtualBox · Bash · Git · Vercel · Render · Supabase</p></article>
+    <article class="stack-card reveal"><h3>Data &amp; BI</h3><p>Power BI · Pentaho · <span data-i18n="stack.star">Modelado estrella</span> · Pandas · Matplotlib</p></article>
+    <article class="stack-card reveal"><h3 data-i18n="stack.sec">Seguridad</h3><p>OWASP · SQL Injection Testing · Burp Suite · <span data-i18n="stack.net">Seguridad de redes</span></p></article>
+    <article class="stack-card reveal"><h3 data-i18n="stack.games">Juegos, 3D y hardware</h3><p>Unity · C# · OpenGL · Blender · Arduino</p></article>
+    <article class="stack-card reveal"><h3 data-i18n="stack.method">Ingeniería</h3><p data-i18n="stack.methodv">Ingeniería de Requisitos · UML · Scrum · Kanban · SOLID · Clean Code · Testing</p></article>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="section" id="proyectos">
+  <div class="sec-head reveal"><span class="num">03</span><h2 data-i18n="proj.title">Proyectos destacados</h2></div>
+  <div class="filters reveal" id="filters">
+    <button class="on" data-f="all" data-i18n="proj.all">Todos</button>
+    <button data-f="web">Web</button>
+    <button data-f="api">Backend</button>
+    <button data-f="game" data-i18n="proj.games">Juegos y 3D</button>
+    <button data-f="hw">Hardware</button>
+  </div>
+  <div class="projects" id="projects"></div>
+</section>
+
+<!-- PATH -->
+<section class="section" id="trayectoria">
+  <div class="sec-head reveal"><span class="num">04</span><h2 data-i18n="path.title">Trayectoria</h2></div>
+  <ol class="timeline">
+    <li class="reveal"><span class="when">2026</span><div><h3 data-i18n="path.t1">¡Habla, Camarón! · simulador de conducción</h3><p data-i18n="path.d1">Autor principal del código de un videojuego serio en Unity con IA de tránsito y más de 440 pruebas automatizadas.</p></div></li>
+    <li class="reveal"><span class="when">2025</span><div><h3 data-i18n="path.t2">Desarrollador web freelance</h3><p data-i18n="path.d2">Diseño, desarrollo y entrega de dos sitios web para hospedajes turísticos de la Amazonía ecuatoriana.</p></div></li>
+    <li class="reveal"><span class="when">2025</span><div><h3>Hackathon Banco Pichincha · ESPE</h3><p data-i18n="path.d3">Participante en el desarrollo de una aplicación móvil con inteligencia artificial para la gestión financiera personal.</p></div></li>
+    <li class="reveal"><span class="when">2023 · <span data-i18n="path.now">hoy</span></span><div><h3 data-i18n="path.t4">Ingeniería de Software · ESPE</h3><p data-i18n="path.d4">Programación Web Avanzada, Computación Paralela, Ciberseguridad, Ingeniería de Requisitos, Redes y Business Intelligence.</p></div></li>
+  </ol>
+  <div class="certs reveal">
+    <h3 data-i18n="path.certs">Certificaciones</h3>
+    <ul>
+      <li><a href="https://verify.skilljar.com/c/rmfyjwmmpxhs" target="_blank" rel="noopener"><b>Claude Code in Action</b></a><span>Anthropic · 2026</span></li>
+      <li><a href="https://verify.skilljar.com/c/i9ohcby6y4ue" target="_blank" rel="noopener"><b>AI Fluency: Framework &amp; Foundations</b></a><span>Anthropic · 2026</span></li>
+      <li><a href="https://verify.skilljar.com/c/md7k5sc7hkw3" target="_blank" rel="noopener"><b>Claude 101</b></a><span>Anthropic · 2026</span></li>
+      <li><b>MATLAB Onramp</b><span>MathWorks · 2025</span></li>
+    </ul>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="section contact" id="contacto">
+  <div class="contact-box reveal">
+    <span class="num">05</span>
+    <h2 data-i18n="contact.title">¿Tienes una oportunidad o un proyecto en mente?</h2>
+    <p data-i18n="contact.text">Estoy buscando mi siguiente reto como desarrollador. Escríbeme y respondo pronto.</p>
+    <a class="mail" href="mailto:adrianpadilla824@gmail.com">adrianpadilla824@gmail.com</a>
+    <div class="cta center">
+      <a class="btn primary" href="https://www.linkedin.com/in/marco-padilla-trivino" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/Adrizzx" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn ghost" href="Marco_Padilla_CV.pdf" download data-i18n="hero.cta2">Descargar CV</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="foot">
+  <span>© <span id="year">2026</span> Marco Adrian Padilla Triviño</span>
+  <a href="#inicio" data-i18n="foot.top">Volver arriba</a>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
